@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply bg-neutral-900 text-neutral-50;
+}
+
+@layer base {
+  button {
+    @apply block rounded-xl text-sm font-bold w-11;
+  }
+}
